@@ -30,7 +30,7 @@ h2{
     margin-top: 0px;
 }
 h3{
-    margin: 5px 37px 5px 5px
+    margin: 12px 0px 5px 0px;
 }
 h4{
     margin: 0px;
@@ -429,17 +429,18 @@ nav ul li:hover{/* hover pour Barre Overline menu nav */
     justify-content: flex-start;
     gap: 20%;
     width: auto;
-    padding: 50px 50px 65px 65px;
+    padding: 35px 50px 15px 65px;
 }
 .typelist{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 15px;
 }
-.size2{ /* taille police titres liste footer */
+.size2{
     font-size: 18px;
     font-weight: bold;
+    margin: 5px 37px 5px 5px
 }
 .card:hover{ 
     transition: 0.4s;
@@ -562,9 +563,6 @@ nav ul li:hover{/* hover pour Barre Overline menu nav */
 {
     .align-filter{ /* flexbox allignement "filtre" */
         display: block;
-    }
-    h3{
-        margin: 0px 0px 18px 0px
     }
     .border-grey{ /* bordure grise, englobe texte et icone filtre */
         margin: 0px;
@@ -905,7 +903,8 @@ nav ul li:hover{/* hover pour Barre Overline menu nav */
         padding-left: 2px;
     }
     h3{
-        margin: 0px 0px 18px 0px
+        font-size: 18px;
+        margin: 12px 0px 5px 0px
     }
     .SectionContainer2 { /* contient la section Container3 */
         padding: 4% 20px 14% 20px;    
@@ -975,12 +974,12 @@ nav ul li:hover{/* hover pour Barre Overline menu nav */
         padding: 40px 0px 52px 30px;
     }
     .typelist{    
-        gap: 15px;
-        font-size: 18px;
+        gap: 12px;
     }
-    .size2{ /* taille police titres liste footer */
+    .size2{
         font-size: 20px;
         font-weight: bold;
+        margin: 0px 0px 18px 0px
     }
 
 }
